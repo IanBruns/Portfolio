@@ -1,0 +1,94 @@
+body, article header {
+  /*
+  This is the standard for the page
+  Other font data will be resolved in later containers
+ 
+  Overall color, ligher gray opposed
+  with the purples in the page-break-after
+  */
+  color: #0C0910;
+  text-align: center;
+  background-color: #E0E2DB;
+}
+
+header {
+  background-color: #73648A;
+}
+
+h1 {
+  /* My Name */
+  padding-top: 25px;
+  font-size: 100px;
+}
+
+h2 {
+  /* Sub headers in the main */
+  font-size: 50px;
+}
+
+h3 {
+  /* h3 is in the header */
+  padding-bottom: 25px;
+  font-size: 40px;
+}
+
+.tang-design {
+  /* 
+  Unify fonts on these headers using the tang-design
+  class
+  */
+  font-family: Tangerine;
+}
+
+main p, main ul, main ol {
+  /*
+  Making sure all things that are not headers are in
+  the same alighnments and font
+  */
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr, main article{
+  /*
+  The This is to make sure the HR Break
+  and text paragraphs stay the same
+  length, image too
+  */
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+footer {
+  /*
+  footer design, same font as the header, but different color
+  and slightly resized to create a sandwich
+  */
+  padding: 10px;
+  background-color: #9882AC;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*
+Changing the links to fit the color theme
+*/
+a {
+  font-weight: bold;
+}
+a:link    { color: #0C0910;  }
+a:visited { color: #73648A;   }
+a:hover   { color: #9882AC; }
+a:active  { color: #0C0910;  }
+
+hr {
+  /*
+  Divisions between sections
+  */
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border-width: 2px;
+}
+
+img {
+  /* round the corners of the image to look nicer */
+  border-radius: 25px;
+}
