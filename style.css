@@ -11,6 +11,13 @@ body, article header {
   background-color: #E0E2DB;
 }
 
+main section header{
+  /*
+  prevent the header from getting the purple tag
+  */
+  background-color: #E0E2DB;  
+}
+
 header {
   background-color: #73648A;
 }
@@ -49,7 +56,7 @@ main p, main ul, main ol {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-hr, main article{
+hr, main article, section{
   /*
   The This is to make sure the HR Break
   and text paragraphs stay the same
@@ -86,6 +93,7 @@ hr {
   margin-top: 50px;
   margin-bottom: 10px;
   border-width: 2px;
+  height: 3px;
 }
 
 img {
